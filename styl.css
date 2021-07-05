@@ -1,0 +1,177 @@
+body{
+background-color: #edf0f5;
+}
+
+
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.title{
+	display: inline;
+	padding-right: 50px;
+	
+}
+
+
+.slider{
+	-webkit-appearance: none;
+	width: 30%;
+	height: 30px;
+	outline: none;
+	border-radius: 3px;
+	background: #95b3f3;	
+}
+
+.slider::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	background: #050118;
+	z-index: 3;
+	
+	}
+
+.slider::-moz-slider-thumb{
+-webkit-appearance: none;
+cursor: pointer;
+width: 30px;
+height: 30px;
+background: #7fcdf1;
+z-index: 3;
+
+}
+
+.slider::-moz-range-thumb{
+cursor: pointer;
+width: 30px;
+height: 30px;
+background: #4fbdc5;
+z-index: 3;
+}
+
+
+.value{
+width: 30px;
+margin-left: 45px;
+}
+
+#buttons{
+margin-top: 50px;
+}
+
+#save{
+	margin-right: 90px;
+}
+
+.button{
+	border-radius: 8px;
+	width: 8%;
+	height: 25px;
+	background-color: #6b98dd;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.button:hover {
+	background-color: #6fa5eb;
+}
+
+.button:active {
+  background-color: #6fa5eb;
+}
+
+#sec3 div{
+	      display: flex;
+      align-items: center;
+      justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+#sec3{
+	padding-top:150px;	
+	}
+	
+	#sec4 div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	
+	}
+	
+	#div2 h1 {
+		padding-bottom: 60px;
+	}
+	
+	#forward{
+		background-image: url('pictures/forward.png');
+		background-size: cover;
+		width: 80px;
+		height: 150px;
+		cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	}
+	
+	
+	#backward{
+		background-image: url('pictures/backward.png');
+		background-size: cover;
+		width: 100px;
+		height:150px;
+		cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	}
+	
+	#sec4.map {
+		display: inline;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.space{
+		margin: 20px;
+		margin-top:30px;
+		margin-bottom: 30px;
+	}
+	
+	#left{
+		background-image: url('pictures/left.png');
+		background-size: cover;
+		width: 150px;
+		height: 80px;
+		cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	}
+	
+	#right{
+		background-image: url('pictures/right.png');
+		background-size: cover;
+		width: 150px;
+		height: 80px;
+		cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	}
+	
+	#stop{
+		background-image: url('pictures/stop.png');
+		background-size: cover;
+		width: 180px;
+		height: 180px;
+		font-size: 20px;
+		cursor: pointer;
+	border: none;
+	border-radius: 50%;	
+	}
+	
+	#sec4{
+		margin-bottom: 150px;
+	}
